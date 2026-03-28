@@ -3,23 +3,91 @@
 <head>
   <title>Ajay Chauhan</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
+      margin: 0;
       background: #0d0d0d;
       color: white;
       font-family: Arial;
-      text-align: center;
-      padding: 50px;
     }
-    h1 { font-size: 42px; }
-    p { color: #aaa; font-size: 18px; }
+
+    .container {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+
+    p {
+      color: #aaa;
+      font-size: 18px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+    }
+
+    .skills span {
+      background: #222;
+      padding: 10px 15px;
+      margin: 5px;
+      display: inline-block;
+      border-radius: 8px;
+    }
   </style>
 </head>
+
 <body>
 
-  <h1>Ajay Chauhan</h1>
-  <p>Senior Android Engineer</p>
-  <p>8+ Years Experience • 10M+ Users</p>
+  <div class="container">
+    <h1>Ajay Chauhan</h1>
+    <p>Senior Android Engineer</p>
+    <p>8+ Years Experience • 10M+ Users</p>
+  </div>
+
+  <div class="section">
+    <h2>About</h2>
+    <p>Experienced Android Developer building scalable apps across Telecom, EdTech and HealthTech.</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Java</span>
+      <span>Kotlin</span>
+      <span>Android Jetpack</span>
+      <span>REST APIs</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Experience</h2>
+
+    <div class="card">
+      Circles – Senior Engineer (2024–Present)
+    </div>
+
+    <div class="card">
+      BYJU’S – Senior Android Engineer
+    </div>
+
+    <div class="card">
+      MediBuddy – SDE 2/3
+    </div>
+
+  </div>
 
 </body>
 </html>
